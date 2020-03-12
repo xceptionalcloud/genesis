@@ -17,6 +17,10 @@ sudo apt update
 ```
 
 Install and enable ssh
+```bash
+sudo apt-get install openssh-server
+sudo systemctl enable ssh
+```
 
 Install apache2
 
