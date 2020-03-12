@@ -20,9 +20,14 @@ Install and enable ssh
 ```bash
 sudo apt-get install openssh-server
 sudo systemctl enable ssh
+sudo ufw allow 'OpenSSH'
 ```
 
-Install apache2
+Install apache2 and allow firewall
+```bash
+sudo apt-get install apache2
+sudo ufw allow 'Apache'
+```
 
 Install postgresql
 
