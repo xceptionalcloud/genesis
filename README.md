@@ -38,14 +38,16 @@ Setup postgresql
 sudo passwd postgres
 su postgres
 psql
-* CREATE ROLE xndev WITH
-    LOGIN
-    SUPERUSER
-    INHERIT
-    CREATEDB
-    CREATEROLE
-    REPLICATION;
-\q
+psql# CREATE ROLE xndev WITH
+psql#   LOGIN
+psql#   SUPERUSER
+psql#   INHERIT
+psql#   CREATEDB
+psql#   CREATEROLE
+psql#   REPLICATION;
+psql#   
+psql# CREATE DATABASE xndev WITH OWNER xndev;
+psql# \q
 ```
 
 Install git (and setup keys)
