@@ -59,16 +59,26 @@ xclip -sel clip < ~/.ssh/rsa_id.pub
 (edit github profile and paste this key into SSH key section)
 ```
 
-Install python3
+Install or Upgrade python3
 ```bash
 python3 --version (checks if installed)
-sudo apt-get upgrade python3 OR sudo apt-get install python3
+sudo apt-get upgrade python3 ---OR--- sudo apt-get install python3
 ```
 
 Install pip3
-
+```bash
+pip3 --version (checks if installed)
+sudo apt-get upgrade python3-pip ---OR--- sudo apt-get install python3-pip
+```
 Install python modules (list)
-
+```bash
+pip3 install requests
+pip3 install netmiko
+pip3 install configparser
+sudo apt-get install libpq-dev
+pip3 install psycopg2
+pip3 install lxml
+```
 # Optional installs
 SoapUI
 
