@@ -2,7 +2,7 @@
 Instructions for starting over or building a new environment for IT automation.
 
 # Spin up a new server
-Minimum - 2 core, 8GB, 60GB // Typical - 2 core, 12GB, 300GB
+Minimum - 2CPU, 8GB, 60GB // Typical - 2CPU, 12GB, 300GB
 
 # Install Ubuntu
 
