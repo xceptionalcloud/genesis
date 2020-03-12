@@ -1,4 +1,3 @@
-# genesis
 Instructions for starting over or building a new environment for IT automation.
 
 # Spin up a new server
