@@ -20,6 +20,7 @@ Install and enable ssh
 ```bash
 sudo apt-get install openssh-server
 sudo systemctl enable ssh
+ssh-keygen (if ~/.ssh/rsa_id.pub does not exist)
 sudo ufw allow 'OpenSSH'
 ```
 
@@ -39,22 +40,32 @@ sudo passwd postgres
 su postgres
 psql
 psql# CREATE ROLE xndev WITH
-psql#   LOGIN
-psql#   SUPERUSER
-psql#   INHERIT
-psql#   CREATEDB
-psql#   CREATEROLE
-psql#   REPLICATION;
-psql#   
-psql# CREATE DATABASE xndev WITH OWNER xndev;
-psql# \q
+#   LOGIN
+#   SUPERUSER
+#   INHERIT
+#   CREATEDB
+#   CREATEROLE
+#   REPLICATION;
+#   
+# CREATE DATABASE xndev WITH OWNER xndev;
+# \q
 ```
 
 Install git (and setup keys)
-
-Install pip3
+```bash
+sudo apt install git-all
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/rsa_id.pub
+(edit github profile and paste this key into SSH key section)
+```
 
 Install python3
+```bash
+python3 --version (checks if installed)
+sudo apt-get upgrade python3 OR sudo apt-get install python3
+```
+
+Install pip3
 
 Install python modules (list)
 
