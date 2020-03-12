@@ -30,6 +30,23 @@ sudo ufw allow 'Apache'
 ```
 
 Install postgresql
+```bash
+sudo apt install postgresql postgresql-contrib
+```
+Setup postgresql
+```bash
+sudo passwd postgres
+su postgres
+psql
+* CREATE ROLE xndev WITH
+    LOGIN
+    SUPERUSER
+    INHERIT
+    CREATEDB
+    CREATEROLE
+    REPLICATION;
+\q
+```
 
 Install git (and setup keys)
 
