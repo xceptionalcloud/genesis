@@ -24,7 +24,7 @@ Install python3
 
 Install python modules (list)
 
-# Optional installs -
+# Optional installs
 SoapUI
 
 Postman
