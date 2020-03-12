@@ -27,7 +27,11 @@ Install python modules (list)
 
 # Optional installs -
 SoapUI
+
 Postman
+
 pgAdmin
+
 pyCharm
+
 Chrome
