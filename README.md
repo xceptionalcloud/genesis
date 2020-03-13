@@ -73,6 +73,7 @@ sudo apt-get upgrade python3-pip ---OR--- sudo apt-get install python3-pip
 Install python modules (list)
 ```bash
 pip3 install requests
+pip3 install requests_toolbelt
 pip3 install netmiko
 pip3 install configparser
 sudo apt-get install libpq-dev
