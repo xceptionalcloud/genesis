@@ -78,6 +78,7 @@ pip3 install configparser
 sudo apt-get install libpq-dev
 pip3 install psycopg2
 pip3 install lxml
+pip3 install Flask
 ```
 # Optional installs
 SoapUI
