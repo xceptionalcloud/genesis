@@ -80,6 +80,7 @@ sudo apt-get install libpq-dev
 pip3 install psycopg2
 pip3 install lxml
 pip3 install Flask
+pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 # Optional installs
 SoapUI
